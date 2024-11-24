@@ -21,10 +21,7 @@ sudo vgs
 sudo lvcreate -L 1G vgDevelopers -n lvDevelopers
 sudo lvcreate -L 1G vgDevelopers -n lvTesters
 sudo lvcreate -L 1G vgDevelopers -n lvDevops
-sudo lvcreate -L 0.9G vgDevelopers -n lvDevops
-sudo lvcreate -L 0.8G vgDevelopers -n lvDevops
 sudo lvcreate -L 2G vgAdmin -n lvAdmin
-sudo lvcreate -L 1.9G vgAdmin -n lvAdmin
 sudo lvs
 lsblk
 sudo mkfs.ext4 /dev/mapper/vgDevelopers-lvDevelopers 
